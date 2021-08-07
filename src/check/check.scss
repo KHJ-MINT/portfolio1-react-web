@@ -1,0 +1,52 @@
+#book-check {
+  width: 100%;
+  padding: 60px 0;
+  h2 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+    &.booking {
+      padding-top: 40px;
+    }
+  }
+  .book-check-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      padding: 15px 0;
+    }
+  }
+  .check-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      margin: 0 15px;
+    }
+  }
+  .check-btn {
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    background: #2c384b;
+    cursor: pointer;
+  }
+  .booking-list-wrap {
+    width: 100%;
+    margin-bottom: 25px;
+    li {
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      span {
+        display: inline-block;
+        padding: 0 15px;
+      }
+    }
+  }
+}

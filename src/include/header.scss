@@ -1,0 +1,85 @@
+header {
+    padding: 30px 0;
+    position: relative;
+    z-index: 20;
+    &#header-wrap {
+        display: flex;
+        justify-content: center;
+        #logo {
+            width: 35%;
+        }
+        nav {
+            width: 60%;
+            cursor: pointer;
+            #lang {
+                display: flex;
+                justify-content: flex-end;
+                p {
+                    text-align: right;
+                    height: 100%;
+                    position: relative;
+                    &.lang-tit {
+                        color: #888;
+                    }
+                    &:hover {
+                        li {
+                            display: block;
+                        }
+                    }
+                }
+                ul {
+                    text-align: center;
+                    transition: 0.5s;
+                    position: absolute;
+                    left: -10px;
+                    top: 22px;
+                    z-index: 20;
+                    color: #333;
+                    li {
+                        padding: 0 10px;
+                        background: #ebebeb;
+                        border-bottom: 1px solid #ccc;
+                        display: none;
+                    }
+                }
+            }
+            #main-nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                margin-top: 5px;
+                width: 100%;
+                >li {
+                    position: relative;
+                    width: 16.66%;
+                    height: 30px;
+                    &.nav-tit {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    &:hover {
+                        #sub-nav {
+                            display: block;
+                        }
+                    }
+                    #sub-nav {
+                        width: 100%;
+                        font-weight: normal;
+                        font-size: 16px;
+                        position: absolute;
+                        left: 0;
+                        top: 32px;
+                        background: #fff;
+                        box-shadow: 2px 2px 8px #666;
+                        display: none;
+                        transition: 0.5s;
+                        li {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

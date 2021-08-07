@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    background: #EBEBEB;
+    padding: 60px 0;
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #footer-logo {
+            width: 40%;
+        }
+        #footer-right {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .footer-nav-wrap {
+                display: flex;
+                justify-content: space-between;
+            }
+            .address {
+                padding: 60px 0;
+                text-align: right;
+                address {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+                p {
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+    
+}
