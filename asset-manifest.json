@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/KHJ-MINT/portfolio1-react-web/static/css/main.02a3547c.chunk.css",
+    "main.js": "/KHJ-MINT/portfolio1-react-web/static/js/main.970bcdf7.chunk.js",
+    "main.js.map": "/KHJ-MINT/portfolio1-react-web/static/js/main.970bcdf7.chunk.js.map",
+    "runtime-main.js": "/KHJ-MINT/portfolio1-react-web/static/js/runtime-main.737bbc0e.js",
+    "runtime-main.js.map": "/KHJ-MINT/portfolio1-react-web/static/js/runtime-main.737bbc0e.js.map",
+    "static/css/2.cdf7e1ec.chunk.css": "/KHJ-MINT/portfolio1-react-web/static/css/2.cdf7e1ec.chunk.css",
+    "static/js/2.8db24d5a.chunk.js": "/KHJ-MINT/portfolio1-react-web/static/js/2.8db24d5a.chunk.js",
+    "static/js/2.8db24d5a.chunk.js.map": "/KHJ-MINT/portfolio1-react-web/static/js/2.8db24d5a.chunk.js.map",
+    "static/js/3.b70b4215.chunk.js": "/KHJ-MINT/portfolio1-react-web/static/js/3.b70b4215.chunk.js",
+    "static/js/3.b70b4215.chunk.js.map": "/KHJ-MINT/portfolio1-react-web/static/js/3.b70b4215.chunk.js.map",
+    "index.html": "/KHJ-MINT/portfolio1-react-web/index.html",
+    "static/css/2.cdf7e1ec.chunk.css.map": "/KHJ-MINT/portfolio1-react-web/static/css/2.cdf7e1ec.chunk.css.map",
+    "static/css/main.02a3547c.chunk.css.map": "/KHJ-MINT/portfolio1-react-web/static/css/main.02a3547c.chunk.css.map",
+    "static/js/2.8db24d5a.chunk.js.LICENSE.txt": "/KHJ-MINT/portfolio1-react-web/static/js/2.8db24d5a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.737bbc0e.js",
+    "static/css/2.cdf7e1ec.chunk.css",
+    "static/js/2.8db24d5a.chunk.js",
+    "static/css/main.02a3547c.chunk.css",
+    "static/js/main.970bcdf7.chunk.js"
+  ]
+}
